@@ -9,6 +9,8 @@ A theremin is a simple device that allows hand gestures and movements to be tran
 
 My version of this is built with 2 Time of Flight sensors that get hand input, and a buzzer that outputs the sound. I also added a small OLED, which can display the sound wave it is producing, using some math implemented in the code. It changes the wave length and wave width on the screen to visualise the sound.
 
+You can see a working model of it here: 
+
 ## How it works
 
 The two sensors each detect two different distances the hand is, and they are used to become a buzzer’s frequency and amplitude. The code gives out a value in millimetres, anywhere from 5 to 600 - while the buzzer requires a sound of 36 - 1024 Hz. To make this achievable, we multiply the distance readings by 10 for the pitch. However, the buzzer duty cycle (volume) ranges anywhere from 0 (silent); 32768 (50%) and 65534 (loudest). To match the integer it requires, we multiply the volume reading by 40. The main processing chip is a Raspberry Pi Pico, and it is a small maker board for these types of projects. To control the volume of the buzzer, it has PWM GPIO pins, which stand for Pulse Width Modulation General Purpose Input/Output pins. They basically make the flow of electricity go on and off at different speeds to make the buzzer louder or quieter.
