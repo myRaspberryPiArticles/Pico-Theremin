@@ -13,6 +13,10 @@ My version of this is built with 2 Time of Flight sensors that get hand input, a
 
 The two sensors each detect two different distances the hand is, and they are used to become a buzzer’s frequency and amplitude. The code gives out a value in millimetres, anywhere from 5 to 600 - while the buzzer requires a sound of 36 - 1024 Hz. To make this achievable, we multiply the distance readings by 10 for the pitch. However, the buzzer duty cycle (volume) ranges anywhere from 0 (silent); 32768 (50%) and 65534 (loudest). To match the integer it requires, we multiply the volume reading by 40. The main processing chip is a Raspberry Pi Pico, and it is a small maker board for these types of projects. To control the volume of the buzzer, it has PWM GPIO pins, which stand for Pulse Width Modulation General Purpose Input/Output pins. They basically make the flow of electricity go on and off at different speeds to make the buzzer louder or quieter.
 
+## Code
+
+The code is split up into 2 codes, one that controls sensors, and one that is the main.py where the OLED is run. You do need to download the 'vl53l0x' library to get the sensors to work properly, and when wiring remember to put the sensors on DIFFERENT I2C BUSES. I found a small I2C scan code to be helpful when testing.
+
 ## Case design
 
 I printed a simple bumper for my Theremin to keep the wiring on the bottom safe. I designed it in TinkerCAD, in a way that my protoboard it is built on can sit inside it. The STL files are above for you to download for yourelf!
