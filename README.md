@@ -21,7 +21,11 @@ The code is split up into 2 codes, one that controls sensors, and one that is th
 
 ## Case design
 
+<img width="425" height="307" align="left" alt="Screenshot 2026-07-17 at 17 48 36" src="https://github.com/user-attachments/assets/7e6bf2c5-3c3a-49cc-91df-d5a34db35fa8" style="margin-right: 20px; margin-bottom: 10px;">
+
 I printed a simple bumper for my Theremin to keep the wiring on the bottom safe. I designed it in TinkerCAD, in a way that my protoboard it is built on can sit inside it. The STL files are above for you to download for yourelf!
+
+<br clear="left"/>
 
 ## Parts List
 
