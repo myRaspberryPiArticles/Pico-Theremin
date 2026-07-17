@@ -3,6 +3,12 @@ My version of a theremin, built with a Raspberry Pi Pico, buzzer and Time of Fli
 
 ## Pictures
 
+<img width="360" height="270" alt="F1972FA2-C316-47A3-9ECE-AAF5E4CAD924_4_5005_c" src="https://github.com/user-attachments/assets/b1827d42-277c-453d-9ef2-e4a02b613f00" />
+<img width="360" height="270" alt="C410DEB3-3112-4E5E-9E45-270C67D85610_4_5005_c" src="https://github.com/user-attachments/assets/13a60758-d2de-406e-a138-45ce1e0d3cba" />
+<img width="360" height="270" alt="AA3081A0-54C1-49CB-B78B-664D1BF1BF9E_4_5005_c" src="https://github.com/user-attachments/assets/c84aa8c5-22f7-42ae-9b6f-d7485d188181" />
+<img width="360" height="270" alt="458DC4B5-77CA-4C18-B4D9-B085813C253E_4_5005_c" src="https://github.com/user-attachments/assets/01485a10-0c15-4254-ab34-e4499edd1094" />
+<img width="360" height="270" alt="3CAB9EA3-80EF-45F4-9CAF-A3239A417DEA_4_5005_c" src="https://github.com/user-attachments/assets/429f9877-1dae-442b-9684-a744cae03f16" />
+
 ## What it is
 
 A theremin is a simple device that allows hand gestures and movements to be transmitted into sound, with different frequencies and volumes based on the movements. They usually have two metal rods that create an electromagnetic field to detect hand movements. 
