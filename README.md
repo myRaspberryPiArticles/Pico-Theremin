@@ -9,7 +9,7 @@ A theremin is a simple device that allows hand gestures and movements to be tran
 
 My version of this is built with 2 Time of Flight sensors that get hand input, and a buzzer that outputs the sound. I also added a small OLED, which can display the sound wave it is producing, using some math implemented in the code. It changes the wave length and wave width on the screen to visualise the sound.
 
-You can see a working model of it here: 
+You can see a working model of it here: [https://www.youtube.com/shorts/vbbmoebM0_U](https://www.youtube.com/shorts/vbbmoebM0_U)
 
 ## How it works
 
